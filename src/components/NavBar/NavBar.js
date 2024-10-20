@@ -9,7 +9,7 @@ function NavBar() {
                 <nav className="navbar navbar-expand-lg navbar-light navBar tool" >
                     <div className='mat-toolbar-row'>
                         <div className="logo">
-                            <img src='homeLogo.png'></img>
+                            {/* <img src='/homeLogo.png'></img> */}
                             Capital Casa
                         </div>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
