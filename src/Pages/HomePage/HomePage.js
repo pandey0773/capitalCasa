@@ -9,7 +9,6 @@ function HomePage() {
     <>
       <div>
         <Header />
-        <img src=''/>
         <MainSection/>  
       </div>
     </>

@@ -24,7 +24,11 @@ function Header(params) {
     ]
     return (
         <>
-            <Row className="justify-content-center mt-3">
+        <div>
+            <img src="CapitalCasaLogo.png" style={{position: 'absolute', top:'-6%', height:'11rem'
+            }}/>
+        </div>
+            <Row className="justify-content-center" style={{marginTop: '9rem'}}>
                 {allIcons.map((card) => {
                     return (
                         <Col md={1} className="mb-4 d-flex flex-column align-items-center text-center">
