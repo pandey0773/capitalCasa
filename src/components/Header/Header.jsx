@@ -28,7 +28,21 @@ function Header(params) {
             <img src="CapitalCasaLogo.png" style={{position: 'absolute', top:'-6%', height:'11rem'
             }}/>
         </div>
-            <Row className="justify-content-center" style={{marginTop: '9rem'}}>
+        <Row style={{marginTop: '2rem'}}>
+            <Col md={4}>
+            </Col>
+            <Col md={4}>
+            <Row className="justify-content-center" style={{ border: '0.1px solid', borderRadius: '14px', boxShadow:' 4px 4px 9px 2px #7823', height: '3rem'}}>
+                <Col md={4}>fie</Col>
+                <Col md={4}>tie</Col>
+                <Col md={4}>ere</Col>
+            </Row>
+            </Col>
+            <Col md={4} className="mb-4 d-flex flex-column align-items-right text-center">
+            <h2>dcskj vdk </h2>
+            </Col>
+        </Row>
+            <Row className="justify-content-center" style={{marginTop: '4rem'}}>
                 {allIcons.map((card) => {
                     return (
                         <Col md={1} className="mb-4 d-flex flex-column align-items-center text-center">
