@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
 import MainSection from '../../components/Card/Card';
+import Footer from '../../components/Footer/Footer';
 // import NavBar from '../../components/NavBar/NavBar';
 // import { Container } from './styles';
 
@@ -9,7 +10,9 @@ function HomePage() {
     <>
       <div>
         <Header />
-        <MainSection/>  
+        <MainSection/> 
+        <hr></hr>
+        <Footer/> 
       </div>
     </>
   )
