@@ -1,13 +1,19 @@
 import React from 'react';
-import NavBar from '../../components/NavBar/NavBar';
+import Header from '../../components/Header/Header';
+import MainSection from '../../components/Card/Card';
+import Footer from '../../components/Footer/Footer';
+// import NavBar from '../../components/NavBar/NavBar';
 // import { Container } from './styles';
 
 function HomePage() {
   return (
     <>
-    <div>
-        <div><NavBar/></div>
-    </div>
+      <div>
+        <Header />
+        <MainSection/> 
+        <hr></hr>
+        <Footer/> 
+      </div>
     </>
   )
 }
