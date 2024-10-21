@@ -14,7 +14,7 @@ const MainSection = () => {
     ]
     return (
         <>
-            <Row className="justify-content-center text-center">
+            <Row className="justify-content-center text-center" style={{ width: '100%' }}>
                 {allcards.map((card) => {
                     return (
                         // <Col md={4} className="mb-4 d-flex justify-content-center">
@@ -31,14 +31,13 @@ const MainSection = () => {
                         // </Col>
                         
                             <Col md={4}>
-                                <Figure style={{boxShadow: '2px 2px 5px 0px #c237', marginBottom: '3rem'}}>
+                                <Figure style={{boxShadow: '2px 2px 5px 0px #c237', marginBottom: '3rem', width: '100%', marginLeft: '12px'}}>
                                     <Figure.Image
                                         width={300}
                                         height={300}
                                         alt="300x300"
                                         src={card.src}
-                                        style={{ height: '13rem', objectFit: 'cover',
-                                            objectPosition: 'bottom' }}
+                                        style={{ height: '13rem', objectFit: 'cover', width: '100%' }}
                                     />
                                     <Figure.Caption>
                                         {card.title}

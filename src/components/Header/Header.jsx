@@ -29,7 +29,9 @@ function Header(params) {
         background: '#fffcfc',
         zIndex: '1',
         paddingTop: '10px',
-        boxShadow: '-1px 4px 4px 0px #cac5c5'
+        boxShadow: '-1px 4px 4px 0px #cac5c5',
+        width:'100%',
+        margin: 'auto'
     }
 
 return (
@@ -39,7 +41,7 @@ return (
                 position: 'absolute', top: '-6%', height: '11rem'
             }} />
         </div>
-        <Row style={{ marginTop: '2rem' }}>
+        <Row style={{ marginTop: '2rem', width:'100%' }}>
             <Col md={4}>
             </Col>
             <Col md={4}>
