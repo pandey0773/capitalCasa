@@ -1,6 +1,6 @@
 import React from "react";
 import './Header.css'
-import { Carousel, Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
+import { Carousel, Row, Col } from 'react-bootstrap';
 
 function Header(params) {
     const allcards = [
@@ -10,16 +10,16 @@ function Header(params) {
     ]
     const allIcons = [
         { title: 'lable', src: 'type1.jpeg' },
-        { title: 'lable', src: 'type2.jpeg' },
-        { title: 'lable', src: 'type3.jpeg' },
+        { title: 'Party', src: 'balloon.svg' },
+        { title: 'Near By', src: 'location-outline.svg' },
         { title: 'lable', src: 'type4.jpeg' },
-        { title: 'lable', src: 'type5.jpeg' },
-        { title: 'lable', src: 'type6.jpeg' },
-        { title: 'lable', src: 'type7.jpeg' },
-        { title: 'lable', src: 'type8.jpeg' },
-        { title: 'lable', src: 'type9.jpeg' },
-        { title: 'lable', src: 'type10.jpeg' },
-        { title: 'lable', src: 'type11.jpeg' },
+        { title: 'Gallary', src: 'images-outline.svg' },
+        { title: 'Break Fast', src: 'cafe-outline.svg' },
+        { title: 'Food', src: 'restaurant-outline.svg' },
+        { title: 'location', src: 'trail-sign-outline.svg' },
+        { title: 'street', src: 'walk-outline.svg' },
+        { title: 'contact', src: 'people-outline.svg' },
+        { title: 'Transport', src: 'car-sport-outline.svg' },
 
     ]
     const iconsDesign = {
@@ -38,7 +38,7 @@ return (
     <>
         <div>
             <img src="CapitalCasaLogo.png" style={{
-                position: 'absolute', top: '-6%', height: '11rem'
+                position: 'absolute', top: '-7%', height: '12rem', width: '15rem'
             }} />
         </div>
         <Row style={{ marginTop: '2rem', width:'100%' }}>
