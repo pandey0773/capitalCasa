@@ -3,8 +3,14 @@ import {Row, Col } from 'react-bootstrap';
 
 
 const Footer = ()=>{
+    const footerIcon= [
+        {img:'logo-facebook.svg'},
+        {img:'logo-whatsapp.svg'},
+        {img:'logo-instagram.svg'},
+
+    ]
 return(
-    <><div style={{backgroundColor: '#f8f9fa', height: '23rem', padding: '5rem'}}>
+    <><div style={{backgroundColor: '#f8f9fa', padding: '5rem'}}>
     <Row style={{ width:'100%' }}>
         <Col className="col-lg-2 mb-3">
         <h5>About</h5>
@@ -46,6 +52,9 @@ return(
             <li className="mb-2">Capital Casa</li>
         </ul>
         </Col>
+    </Row>
+    <Row style={{textAlign: 'right'}}>
+        <Col>{footerIcon.map((element)=> (<img style={{height: "2rem", marginLeft:'1rem'}} src={element.img}></img>))}</Col>
     </Row>
     </div>
     </>

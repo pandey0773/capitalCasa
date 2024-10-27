@@ -3,13 +3,19 @@ import { Button, Card, Row, Col, Figure } from 'react-bootstrap';
 const MainSection = () => {
     const allcards = [
         { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'CapitalCasaLogo.png' },
-        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'img1.jpg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'buildingFront1.jpeg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'bedroom3.jpg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'staiers1.jpeg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'rooms1.jpg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'food1.jpeg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'bedroom4.jpg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'bedroom5.jpg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'rooms1.jpg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'balkani1.jpg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'bathroom1.jpg' },
         { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'bed.jpg' },
-        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'bed2.jpg' },
-        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'bed2.jpg' },
-        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'img1.jpg' },
-        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'img1.jpg' },
-        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'img1.jpg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'staires2.jpeg' },
+        { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'lift1.jpg' },
         { title: 'First Slide Label',Price: '1,400/-',Type: 'Double Bed',with: 'AC', discription: 'Some representative placeholder content for the first slide.', src: 'img1.jpg' },
     ]
     return (
